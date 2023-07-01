@@ -38,7 +38,7 @@ class Task {
     }
 }
 
-public class TaskManagementGUI extends JFrame {
+public class TaskManagement extends JFrame {
     private List<Task> tasks;
     private DefaultListModel<Task> listModel;
     private JList<Task> taskList;
